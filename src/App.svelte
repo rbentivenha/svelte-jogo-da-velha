@@ -98,7 +98,7 @@
 
 <main>
 
-  {#if winner !== ' '}
+  {#if winner && winner !== ' '}
     <p>Vencedor: {winner}</p>
   {/if}
 
